@@ -31,7 +31,7 @@ class Guess(object):
     @property
     def accuracy(self):
         """Accuracy of the guess."""
-        return self.__accuracy
+        pass
 
     @property
     def date(self):
@@ -41,4 +41,4 @@ class Guess(object):
     @property
     def method(self):
         """Method that was used for guessing the date, or None if a guess can't be made."""
-        return self.__method
+        pass
